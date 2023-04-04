@@ -10,5 +10,5 @@ const reverseString = l => {
 module.exports = reverseString
 
 if (require.main === module) {
-  console.log('result=', reverseString('example'))
+  console.log('result =', reverseString('example'))
 }

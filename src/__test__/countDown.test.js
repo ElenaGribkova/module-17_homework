@@ -1,8 +1,8 @@
-const countDown = require('../countDown')
+const countDown  = require('../countDown')
 
 describe('countDown examination', () => {
   it('Count down from 5', () => {
-    const received = countDown(5)
+    const received  = countDown(5)
     expect(received).toEqual([5, 4, 3, 2, 1])
   }),
   it('Count down from 1', () => {

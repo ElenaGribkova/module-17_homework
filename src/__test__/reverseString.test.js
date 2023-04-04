@@ -1,6 +1,6 @@
 const reverseString = require('../reverseString')
 
-describe('reverseString examination', () => {
+describe( 'reverseString examination', () => {
   it(`Reverse 'example'`, () => {
     const received = reverseString('example')
     expect(received).toBe('elpmaxe')
